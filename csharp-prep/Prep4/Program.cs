@@ -4,6 +4,28 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Prep4 World!");
+        List<int> numbers = new List<int>();
+
+        int userNumber = -1;
+        while (userNumber != 0)
+        {
+            Console.Write("Enter a number. When you are finished, enter 0 to quit.");
+
+            string userResponse = Console.ReadLine();
+            userNumber = int.Parse(userResponse);
+
+            if (userNumber != 0)
+            {
+                numbers.Add(userNumber);
+            }
+        }
+        int sum = 0;
+
+        foreach (int number in numbers)
+        {
+            sum += number;
+        }
+
+        Console.WriteLine($"The sum of all the numbers in the list is: {sum}");
     }
 }
