@@ -45,7 +45,7 @@ class Program
                         Console.WriteLine("Invalid choice.");
                         break;
                 }
-                Console.WriteLine("Goodbye!");
+                Console.WriteLine("Goodbye! Have a great day!");
         }
 
         static string GetRandomPrompt(List<string> prompts)
