@@ -8,7 +8,7 @@ class Program
 
         List<string> prompts = new List<string>
         {
-            "What was the best part about your day?", "Who helped you have a good day?", "What was the hardest part about today?", "If I had one thing I can do over today, what would it be?", "What goal do you have tomorrow?", "What act of service did you perform today?","Did you discover anything new or learn something interesting today?"
+            "What was the best part about your day?", "Who helped you have a good day?", "What was the hardest part about today?", "If I had one thing I can do over today, what would it be?", "What goal do you have tomorrow?", "What act of service did you perform today?","Did you discover anything new or learn something interesting today?",""
         };
 
         bool quit = false;
